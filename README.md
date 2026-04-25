@@ -161,12 +161,16 @@ cd ..
 APP_PORT=3000
 
 # Order Service
-ORDER_SERVICE_PORT=3001
-ORDER_DB_HOST=127.0.0.1
-ORDER_DB_PORT=3306
-ORDER_DB_NAME=order_db
-ORDER_DB_USER=root
-ORDER_DB_PASS=
+APP_NAME="Express Order Service"
+APP_PORT=3001
+APP_ENV=development
+
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_NAME=order_db
+DB_USER=root
+DB_PASS=
+
 
 # Inventory Service URL (untuk gateway)
 INVENTORY_SERVICE_URL=http://localhost:3002
